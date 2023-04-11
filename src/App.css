@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: white;
+  background-color: #002B5B;
+  border-color: #002B5B;
+}
+
+.page-link{
+  color: #002B5B
+}
+
+.progress-bar{
+  background-color: #26aa99;
+}
+
+/* .StepButton-d0-0-2-6.active{
+  background-color: blue;
+} */
